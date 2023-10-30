@@ -1,0 +1,48 @@
+/* GENERIC */
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+/* ELEMENTS */
+
+body {
+    margin: 0;
+    padding: 8vw;
+}
+
+main,
+section + section {
+    margin-top: 50px;
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+form {
+    margin-top: 25px;
+}
+
+input + div {
+    margin-top: 20px;
+}
+
+div + div {
+    margin-left: 25px;
+}
+
+button + button,
+input + label {
+    margin-left: 10px;
+}
+
+
+/* COMPONENTS */
+
+.equipe {
+    display: flex;
+}
