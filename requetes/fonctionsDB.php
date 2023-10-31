@@ -7,8 +7,8 @@
 	function connexionDB() {
 		define('DB_HOST', 'localhost');
 		define('DB_USER', 'root');
-		define('DB_PASSWORD', 'root');			// MAC
-		//define('DB_PASSWORD', '');			// Windows
+		// define('DB_PASSWORD', 'root');			// MAC
+		define('DB_PASSWORD', '');			// Windows
 
 		$laConnexion = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD);
 				
