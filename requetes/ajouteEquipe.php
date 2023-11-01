@@ -6,7 +6,7 @@
     
 
     if (isset($data['nom']) && isset($data['quartier'])) {
-
+        
         $nom = htmlspecialchars($data['nom']);
         $quartier = htmlspecialchars($data['quartier']);
 
@@ -15,6 +15,7 @@
         echo $return_id;
 
     } else {
+        
         echo 'Erreur query string';
     }
 ?>
